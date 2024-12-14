@@ -23,31 +23,25 @@ The client-side of the project is built using React. Below is an outline of the 
 - **Video Display**: Displays educational videos for users to watch.
 - **Responsive Design**: The website is fully responsive and works well on both desktop and mobile devices.
 
+- 
 ## Getting Started
 
-### Prerequisites
-
 Ensure you have the following installed:
+
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 - A browser (e.g., Chrome, Firefox, Safari)
 
-### 1. Clone the repository
+## Clone the repository from GitHub:
 
-Clone the repository from GitHub:
-
-```bash
 git clone https://github.com/yourusername/StudNetFrontend.git
+Navigate into the project directory:
+1.Then, install the project dependencies using npm:npm install
+2.Start the development server by running: npm run dev
 
+This will start the development server and open the application in your browser at http://localhost:5173. You should now be able to access the application on your local machine.
 
-## Install dependencies:
-1. cd StudNetFrontend
-2. Then, install the project dependencies using npm:  npm install
-3.Start the development server by running: npm run dev
-
-
-
-We welcome contributions to the StudNetFrontend project! If you'd like to contribute, follow these steps:
+## We welcome contributions to the StudNetFrontend project! If you'd like to contribute, follow these steps:
 
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).
