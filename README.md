@@ -34,7 +34,7 @@ Ensure you have the following installed:
 
 ## Clone the repository from GitHub:
 
-git clone https://github.com/yourusername/StudNetFrontend.git
+git clone https://github.com/idan08/StudNetFrontend.git
 Navigate into the project directory:
 
 - **1**. Then, install the project dependencies using npm:**npm install**
