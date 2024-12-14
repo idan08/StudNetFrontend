@@ -50,7 +50,7 @@ This will start the development server and open the application in your browser 
 │   └── **(Images, videos, and other static files)**
 │   └── **This folder contains all the static assets used throughout the application, such as images, videos, icons, and other non-dynamic resources.**
 │
-├── /src
+├── /src<br>
 │   ├── /components
 │   │   ├── /Button
 │   │   │   ├── **Button.jsx**
