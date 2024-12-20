@@ -1,0 +1,406 @@
+
+.login-container {
+    height: 900px;
+    position: relative;
+    width: 1397px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.hero-section {
+
+    background-image: url(https://c.animaapp.com/FNZyYIxm/img/bg-left-1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 900px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 730px;
+    
+}
+
+.welcome-message {
+    color: #f5f5f5;
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 61px;
+    left: 175px;
+    letter-spacing: 0;
+    line-height: normal; 
+    position: absolute;
+    text-align: center;
+    top: 712px;
+    width: 380px;
+}
+
+.tagline {
+    color: #ffffff;
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 31.2px;
+    font-weight: 700;
+    left: 175px;
+    letter-spacing: -0.50px;
+    line-height: normal; 
+    position: absolute;
+    text-align: center;
+    top: 621px;
+    width: 380px;
+}
+
+.logo {
+    height: 60px;
+    left: 249px;
+    position: absolute;
+    top: 80px;
+    width: 233px;
+}
+
+.hero-image {
+    height: 357px;
+    left: 153px;
+    position: absolute;
+    top: 216px;
+    width: 423px;
+}
+
+
+.signup-prompt {
+    color: transparent;
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 12.8px;
+    font-weight: 400;
+    left: 1017px;
+    letter-spacing: 0;
+    line-height: normal; 
+    position: absolute;
+    text-align: center;
+    top: 594px;
+}
+
+.text {
+    color: #424242;
+}
+
+.signup-link {
+    color: #212121;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.login-form-container {
+    height: 262px;
+    left: 870px;
+    position: absolute;
+    top: 311px;
+    width: 465px;
+}
+
+.input-fields {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 262px;
+    position: relative;
+    width: 465px;
+}
+
+.input-field-group {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.username-input-container {
+    height: 65.03px;
+    position: relative;
+    width: 380px;
+}
+
+.input-line {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 64px;
+    width: 381px;
+}
+
+.input-label {
+    height: 23px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 69px;
+}
+
+.username-label {
+    color: #757575;
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 12.8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal; 
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.password-input-container {
+    height: 63.09px;
+    position: relative;
+    width: 380px;
+}
+
+.password-label {
+    color: #757575;
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 12.8px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal; 
+    position: absolute;
+    top: 0;
+    width: 69px;
+}
+
+.remember-me-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-label {
+    height: 23px;
+    position: relative;
+    width: 164.75px;
+}
+
+.terms-text {
+    color: #757575;
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 10.2px;
+    font-weight: 400;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: normal; 
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.checkbox {
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 22px;
+}
+
+
+
+
+.login-button-container {
+    height: 56px;
+    margin-right: -2.00px;
+    position: relative;
+    width: 155px;
+}
+
+.login-button-wrapper {
+    background-color: #7b76f1;
+    border-radius: 56px;
+    box-shadow: 0px 34px 40px -8px rgba(123, 118, 241, 0.24); 
+    height: 56px;
+    width: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.login-button-wrapper:hover {
+    background: #6a5be3; 
+    transform: scale(1.05); 
+}
+
+.login-button-wrapper:active {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: scale(1); 
+}
+
+.login-button-text {
+    color: #ffffff;
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 12.8px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.community-welcome {
+    color: #242424;
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 31.2px;
+    font-weight: 700;
+    left: 899px;
+    letter-spacing: -0.50px;
+    line-height: normal; 
+    position: absolute;
+    text-align: center;
+    top: 114px;
+    width: 380px;
+}
+
+.social-login-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: absolute;
+    left: 907px;
+    top: 350px; 
+    width: 365px;
+    gap: 9px;
+}
+
+.social-login-buttons {
+    display: flex;
+    position: absolute;
+    left: 907px;
+    top: 200px; 
+  
+}
+.social-login-content {
+    background-color: #7b76f1;
+    border: none; 
+    border-radius: 48px;
+    height: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-login-content:hover {
+    background-color: #6a5be3; 
+    transform: scale(1.05); 
+}
+
+.social-login-content:active {
+    transform: scale(1); 
+}
+
+.social-login-text-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.google-signup-text,
+.github-signup-text {
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 12.8px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.social-login-icon {
+    height: 18px;
+    width: 18px;
+}
+
+.chat-icon-container {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #3f51b5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.extra-icon {
+    height: 1px;
+    left: 1608px;
+    position: absolute;
+    top: 1191px;
+    width: 1px;
+}
+
+.tick-box-icon {
+    height: 30px;
+    left: 855px;
+    position: absolute;
+    top: 752px;
+    width: 30px;
+}
+
+
+.input-field-container {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.input-label {
+    color: #ffffff;
+    font-family: "Zen Kaku Gothic Antique", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: -20px;
+    left: 10px;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #7b76f1, #6a5be3); 
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out; 
+}
+
+.input-field::placeholder {
+    color: #e1bee7; 
+}
+
+.input-field:focus {
+    outline: none;
+    box-shadow: 0px 0px 15px rgba(123, 118, 241, 0.8); 
+    background: linear-gradient(145deg, #6a5be3, #7b76f1); 
+}
+
+.input-field:focus::placeholder {
+    color: #ffffff;
+}
+
