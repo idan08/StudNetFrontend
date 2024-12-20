@@ -38,7 +38,7 @@ git clone https://github.com/idan08/StudNetFrontend.git
 Navigate into the project directory:
 
 - **1**. Then, install the project dependencies using npm:**npm install**
-- **2**. Start the development server by running: **npm run dev**
+- **2**. Start the development server by running: **npm run dev or npm start**
 
 This will start the development server and open the application in your browser at http://localhost:5173. You should now be able to access the application on your local machine.
 
